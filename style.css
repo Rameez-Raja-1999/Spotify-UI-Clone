@@ -1,0 +1,12 @@
+@font-face{
+    font-family: spotify;
+    src: url(./SpotifyMixUI-Regular-76c92fb1a35c462f73429fa8865163eb.woff2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: ;
+}
