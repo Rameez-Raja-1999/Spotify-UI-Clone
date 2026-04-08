@@ -23,13 +23,11 @@ html,body{
 
 .main-container{
     display: flex;
-    width: 100vw;
     height: 100vh;
-    padding: 0.4rem;
 }
 
 aside{
-    width: 25%;
+    width: 22%;
     height: 100%;
     border-radius: 0.4rem;
 }
@@ -38,21 +36,22 @@ aside{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 37px;
+    gap: 2rem;
     background-color: #1a1a1a;
-    height: 8rem;
+    height: 125px;
     border-radius: 0.4rem;
-    padding: 20px;
-    /* margin: 10px; */
-    margin: 3px;
+    padding: 0.5rem 1rem;
+    margin: 5px;
     border: none;
     outline: none;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 .nav-icons{
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .nav-icons a{
@@ -62,56 +61,48 @@ aside{
     font-weight: 500;
 }
 
- #search a{
-    color: #adb9c5;
+#search{
+    opacity: 0.8;
 }
-
- #search i{
-    color: #adb9c5;
-}
-
-#search a:hover{
-    color: #ffffff;
-}
-
-#search i:hover{
-    color: #ffffff;
+ 
+#search:hover{
+    opacity: 1;
 }
 
 .left-aside-nav-icons-container .nav-icons i{
     padding-right: 20px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
 }
 
-.lab-icons img {
-    height: 1.75rem;
-    width: 1.75rem;
-    margin-right: 20px;
+.nav-icons img {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 10px;
     color: #adb9c5;
 }
 
-.left-aside-library {
+.left-aside-library-container {
     background-color: #1a1a1a;
-    width: 100%;
     height: 100%;
     border-radius: 0.4rem;
+    margin: 5px;
 }
 
 .aside-library-options {
     display: flex;
     align-items: center;
-    gap: 115px;
+    gap: 60px;
     background: #1a1a1a;
     height: 4.5rem;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
     padding: 20px;
     margin: 3px;
     border: none;
     outline: none;
-    /* width: 100%; */
     color: #adb9c5;
+    
 }
 
 .aside-library-options:hover{
@@ -123,10 +114,16 @@ aside{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 22px;
-    font-size: 1.5rem;
+    gap: 15px;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-left: 2rem;
+}
+
+#arrow:hover{
+    border-radius: 50%;
+    background-color: #252424;
+    padding: 4px;
 }
 
 .aside-library-boxes .box{
@@ -134,11 +131,15 @@ aside{
     border-radius: 0.4rem;
     border: none;
     outline: none;
+    margin-bottom: 4px;
+    
 }
 
-
 .box{
-    height: 10rem;
+     background-color: #232323;
+     border-radius: 0.4rem;
+     padding: 0px 10px 10px 0px;
+    
 }
 
 
@@ -162,12 +163,13 @@ main{
      flex: 1;
      margin: 3px;
      margin-left: 5px;
+     overflow: auto;
 }
 
 footer{
     background-color: rgb(3, 3, 3);
     position: fixed;
     bottom: 0;
-    width: 100vw;
-    height: 7vh;
+    width: 100%;
+    height: 72px;
 }
