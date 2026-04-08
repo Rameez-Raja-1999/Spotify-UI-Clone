@@ -94,7 +94,6 @@ aside{
 
 .library-options .plus-left-arrow {
     font-size: 1.45rem;
-    opacity: 0.7;
     margin-right: 1rem;
     transition: all ease-in;
     display: flex;
@@ -103,13 +102,9 @@ aside{
     gap: 20px;
 }
 
-.library-options .plus-left-arrow i:hover{
+.sidebar-library .library-options .plus-left-arrow i:hover{
     opacity: 1;
 }
-
-
-
-
 
 
 
