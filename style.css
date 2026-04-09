@@ -29,7 +29,7 @@ html,body{
 }
 
 aside{
-    width: 22%;
+    width: 20%;
     max-width: 400px;
     border-radius: 0.4rem;
 }
@@ -118,14 +118,22 @@ aside{
 }
 
 
-/* .library-boxes .box{
+.library-boxes .box {
     background-color: #232323;
     height: 30%;
     display: flex;
-    align-items: center;
     justify-content: center;
-} */
+    flex-direction: column;
+    margin: 10px 6px 10px 6px;
+    padding: 1.5rem;
+    gap: 10px;
+    border-radius: 0.4rem;
+}
 
+.library-boxes .box .box-para1{
+    font-family: spotify-bold;
+    font-size: 1.1rem;
+}
 
 
 
