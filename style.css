@@ -120,10 +120,14 @@ aside{
 /* sidebar boxes */
 .library-boxes .box {
     background-color: #232323;
-    margin: 10px 6px 10px 6px;
+    margin: 14px 6px 25px 6px;
     padding: 1rem 1.25rem;
     border-radius: 0.74rem;
     line-height: 1.9rem;
+}
+
+.library-boxes .box:hover{
+
 }
 
 .library-boxes .box .box-para1{
