@@ -103,10 +103,6 @@ aside{
     gap: 20px;
 }
 
-/* .sidebar-library .library-options .plus-left-arrow i:hover{
-    opacity: 1;
-} */
-
 .plus , .right-arrow {
     opacity: 0.7;
 }
