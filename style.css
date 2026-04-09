@@ -29,7 +29,7 @@ html,body{
 }
 
 aside{
-    width: 20%;
+    width: 18%;
     max-width: 400px;
     border-radius: 0.4rem;
 }
@@ -117,17 +117,13 @@ aside{
     cursor: pointer;
 }
 
-
+/* sidebar boxes */
 .library-boxes .box {
     background-color: #232323;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin: 10px 6px 10px 6px;
-    padding: 1.5rem;
-    gap: 10px;
-    border-radius: 0.4rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.74rem;
+    line-height: 1.9rem;
 }
 
 .library-boxes .box .box-para1{
@@ -135,8 +131,24 @@ aside{
     font-size: 1.1rem;
 }
 
+.library-boxes .box .box-para2 {
+    padding: 1px 0px 13px 0px;
+    opacity: 0.9;
+    
+}
 
+.library-boxes .box .badge {
+    padding: 0.5rem 2rem;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
 
+.library-boxes .box .badge:hover{
+    box-shadow: 0px 0px 5px white;
+}
 
 
 main{
