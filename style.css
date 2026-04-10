@@ -305,6 +305,12 @@ main{
      transition: all ease-in;
 }
 
+.cards-data {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 
 footer{
     background-color: #000000;
