@@ -206,12 +206,12 @@ main{
 
 .main-sticky-navbar .right-icons {
     width: 33%;
-    height: 46px;
+    height: 100%;
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-right: 25px;
-    padding-left: 10px; 
+    margin-right: 1.5rem;
+    padding-left: 10px;
 }
 
 .main-sticky-navbar .badge {
@@ -253,25 +253,23 @@ main{
 .main-sticky-navbar .right-icons i {
     font-size: 1.45rem;
     background-color: #000000;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 100px;
 }
 
-#background-color{
+#background-color:hover{
     background-color: #000000;
 }
 
-.card-container{
+/* .card-container{
 
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
 }
 
 .cards {
     background-color: #232323;
-    /* height: 363px; */
     width: 178px;
     padding: 14px;
     border-radius: 0.4rem;
@@ -283,7 +281,7 @@ main{
     width: 150px;
     border-radius: 0.45rem 0.45rem 0 0;
     margin-bottom: 6px;
-}
+} */
 
 
 
