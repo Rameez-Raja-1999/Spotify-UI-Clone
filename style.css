@@ -8,6 +8,11 @@
     src: url(./SpotifyMixUI-Bold-09c45a3a0ce9d2971e62cb26e97760fb.woff2);
 }
 
+@font-face{
+    font-family: spotify-title;
+    src: url(./SpotifyMixUITitleVariable-08bab3354d40f74e5177917b5ae80894.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
