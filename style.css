@@ -324,13 +324,23 @@ main{
 }
 
 #show-all {
-    padding-right: 40rem;
+    padding-right: 45rem;
     opacity: 0.7;
 }
 
 #show-all:hover{
     opacity: 1;
     cursor: pointer;
+}
+
+#show-all-2{
+     padding-right: 17rem;
+     opacity: 0.7;
+}
+
+#show-all-2:hover{
+     opacity: 1;
+     cursor: pointer;
 }
 
 footer{
