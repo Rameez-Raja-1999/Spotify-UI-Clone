@@ -275,7 +275,7 @@ main{
     margin-top: 1rem;
     width: 212px;
     height: 312px;
-    background-color: #232323;
+    /* background-color: #232323; */
     padding: 0.8rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -306,7 +306,8 @@ main{
 }
 
 .card1:hover{
-     background-color: #1b1b1b;
+     /* background-color: #1b1b1b; */
+     background-color: #232323;
      transition: all ease-in;
 }
 
