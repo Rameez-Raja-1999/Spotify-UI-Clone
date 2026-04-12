@@ -402,4 +402,57 @@ footer {
 .footer-data-container {
     display: flex;
     justify-content: space-around;
+    font-family: spotify-bold;
+    font-size: 1.2rem;
+}
+
+.footer-data-container #column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-data-container #column a{
+   text-decoration: none;
+   color: white;
+   font-family: spotify-regular;
+   font-size: 1rem;
+   opacity: 0.7;
+}
+
+.footer-data-container #column a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.social-media-icions {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.social-media-icions i {
+    background-color: #232323;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social-media-icions i:hover{
+    background-color: #5e5b5b;
+}
+
+.licence {
+    display: flex;
+    align-items: center;
+    margin-top: -75px;
+    margin-left: 4rem;
+    opacity: 0.7;
+    font-size: 0.8rem;
+    word-spacing: 0.1rem;
 }
