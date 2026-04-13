@@ -191,14 +191,6 @@ main{
     overflow: auto;
 }
 
-/* @media (max-width:1360px) {
-    .library-options
-}
-
-@media (max-width:1117px) {
-    
-} */
-
 .main-sticky-navbar {
     display: flex;
     align-items: center;
