@@ -97,6 +97,26 @@ aside{
     margin-top: 0.75rem;
 }
 
+@media (max-width:1410px) {
+    .library-options a{
+        font-size: 12px;
+    }
+
+   .sidebar-library .library-options .plus-left-arrow i{
+        font-size: 12px;
+    }
+
+    #show-all{
+        display: none;
+    }
+}
+
+@media (max-width:1100px) {
+    #show-all{
+    padding-right: 2rem;
+    opacity: 0.7;
+    }
+}
 .library-options img {
     height: 1.45rem;
     width: 1.45rem;
@@ -285,19 +305,11 @@ main{
         display: none;
     }
 
-    /* #show-all{
-        display: none;
-    } */
 }
 
-@media (max-width:1122px) {
-    #show-all {
-    display: flex;
-    padding-right: 3rem;
-    opacity: 0.7;
-    }
+@media (max-width:1410px) {
+    
 }
-
 .cards-container {
     margin-top: 0.3rem;
     margin-left: 2rem;
