@@ -48,7 +48,7 @@ aside{
     flex-direction: column;
     height: 13%;
     width: 100%;
-    margin: 2px;
+    /* margin: 8px 0px 0px 0px; */
     gap: 1.6rem;
     border-radius: 0.4rem;
 }
@@ -85,7 +85,7 @@ aside{
     background-color: #121212;
     border-radius: 0.4rem;
     height: 100%;
-    margin: 8px 2px 0px 2px;
+    margin: 8px 0px 0px 0px;
 }
 
 .library-options {
@@ -94,7 +94,7 @@ aside{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 0.75rem;
+    margin-top: 1rem;
 }
 
 @media (max-width:1410px) {
