@@ -6,4 +6,4 @@ Spotify-inspired UI clone built using HTML and CSS, focusing on responsive desig
 ## Output
 
 ![Output](assets/output1.png)
-![Output](assets/output.png)
+![Output](assets/output2.png)
